@@ -24,7 +24,7 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Por que a IABRAS?"
+                title="Por que a Coral Digital?"
                 paragraph="Somos uma empresa brasileira focada em democratizar a Inteligência Artificial, tornando-a acessível e útil para micro e pequenas empresas. Combinamos inovação tecnológica com uma abordagem prática e acessível."
                 mb="44px"
               />

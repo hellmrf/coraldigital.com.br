@@ -12,8 +12,8 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "IABRAS - Coral Digital",
-  description: "IABRAS - Inteligência Artificial Brasileira",
+  title: "Coral Digital",
+  description: "Coral Digital - Inteligência Artificial para o seu negócio.",
   // other metadata
 };
 
