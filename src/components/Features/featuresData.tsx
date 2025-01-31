@@ -17,7 +17,7 @@ const featuresData: Feature[] = [
       "Criamos soluções inteligentes para pequenos e médios negócios, automatizando processos e tornando operações mais eficientes. Desenvolvemos desde chatbots personalizados até sistemas avançados de IA para análise de dados e otimização de fluxos de trabalho.",
   },
   {
-    id: 1,
+    id: 2,
     icon: (
       <svg width="40" height="42" viewBox="0 0 40 42" className="fill-current">
         <path
@@ -32,7 +32,7 @@ const featuresData: Feature[] = [
       "Nosso sistema de automação de atendimento via WhatsApp transforma a forma como empresas interagem com seus clientes. Com inteligência artificial, eliminamos tarefas repetitivas, garantindo respostas rápidas, eficientes e personalizadas.",
   },
   {
-    id: 1,
+    id: 3,
     icon: (
       <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
         <path
