@@ -87,4 +87,11 @@ if (process.env.NODE_ENV === "development") {
   menuData.push(devPages);
 }
 
+menuData.push({
+  id: menuData.length + 1,
+  title: "Contato",
+  path: "https://wa.me/5531971352054",
+  newTab: true,
+});
+
 export default menuData;
