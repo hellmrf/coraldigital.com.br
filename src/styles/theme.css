@@ -18,7 +18,6 @@
 
 @theme {
 
-  /* Semantic color tokens - light theme defaults */
   --color-background: var(--color-cd-sand-light);
   --color-surface: var(--color-cd-surface-light);
   --color-primary: var(--color-cd-coral);
@@ -33,23 +32,3 @@
   --color-accent-dark: var(--color-cd-navy-dark);
   --color-text-dark: var(--color-cd-white);
 }
-/*
-/* Dark mode overrides via data attribute /
-[data-theme="dark"] {
-  --color-background: var(--color-cd-bg-dark);
-  --color-surface: var(--color-cd-sand-dark);
-  --color-secondary: var(--color-cd-teal-dark);
-  --color-accent: var(--color-cd-navy-dark);
-  --color-text: var(--color-cd-white);
-}
-
-/* Dark mode overrides via media query /
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-background: var(--color-cd-bg-dark);
-    --color-surface: var(--color-cd-sand-dark);
-    --color-secondary: var(--color-cd-teal-dark);
-    --color-accent: var(--color-cd-navy-dark);
-    --color-text: var(--color-cd-white);
-  }
-} */
