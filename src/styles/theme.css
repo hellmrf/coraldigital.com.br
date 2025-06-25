@@ -1,3 +1,4 @@
+@import "tailwindcss";
 
 :root {
 /* Base colors - brand palette */
@@ -14,6 +15,7 @@
   --color-cd-bg-dark: #181D23;
   --color-cd-surface-light: #FFFFFF;
 }
+
 @theme {
 
   /* Semantic color tokens - light theme defaults */
