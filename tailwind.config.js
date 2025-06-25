@@ -38,7 +38,6 @@ module.exports = {
         current:     'currentColor',
         transparent: 'transparent',
 
-        // Core brand colors - directly from @theme
         background: 'var(--color-background)',
         surface:    'var(--color-surface)',
         primary:    'var(--color-primary)',
