@@ -1,5 +1,5 @@
-@theme {
-  /* Base colors - brand palette */
+
+:root {
   --color-cd-coral: #FF6F61;
   --color-cd-coral-hover: #FFA08F;
   --color-cd-teal-light: #1EAFB3;
@@ -12,7 +12,6 @@
   --color-cd-white: #F5F5F5;
   --color-cd-bg-dark: #181D23;
   --color-cd-surface-light: #FFFFFF;
-
   /* Semantic color tokens - light theme defaults */
   --color-background: var(--color-cd-sand-light);
   --color-surface: var(--color-cd-surface-light);
@@ -22,10 +21,15 @@
   --color-accent: var(--color-cd-navy-light);
   --color-text: var(--color-cd-charcoal);
 
-  /* Dark mode overrides via media query */
-  @media (prefers-color-scheme: dark) {
+}
+
+/* Dark mode overrides via media query */
+@media (prefers-color-scheme: dark) {
+  :root {
     --color-background: var(--color-cd-bg-dark);
     --color-surface: var(--color-cd-sand-dark);
+    --color-primary: var(--color-cd-coral);
+    --color-primary-hover: var(--color-cd-coral-hover);
     --color-secondary: var(--color-cd-teal-dark);
     --color-accent: var(--color-cd-navy-dark);
     --color-text: var(--color-cd-white);
@@ -34,9 +38,12 @@
 
 /* Dark mode overrides via data attribute */
 [data-theme="dark"] {
+  --color-primary: var(--color-cd-coral);
+  --color-primary-hover: var(--color-cd-coral-hover);
   --color-background: var(--color-cd-bg-dark);
   --color-surface: var(--color-cd-sand-dark);
   --color-secondary: var(--color-cd-teal-dark);
   --color-accent: var(--color-cd-navy-dark);
   --color-text: var(--color-cd-white);
 }
+
