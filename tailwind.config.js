@@ -35,26 +35,52 @@ module.exports = {
     },
     extend: {
       colors: {
-        current: "currentColor",
-        transparent: "transparent",
-        white: "#FFFFFF",
-        black: "#121723",
-        dark: "#1D2430",
-        primary: "#4A6CF7",
-        yellow: "#FBB040",
-        "bg-color-dark": "#171C28",
-        "body-color": {
-          DEFAULT: "#788293",
-          dark: "#959CB1",
+        current:     'currentColor',
+        transparent: 'transparent',
+
+        // Core brand colors - directly from @theme
+        background: 'var(--color-background)',
+        surface:    'var(--color-surface)',
+        primary:    'var(--color-primary)',
+        'primary-hover': 'var(--color-primary-hover)',
+        secondary:  'var(--color-secondary)',
+        accent:     'var(--color-accent)',
+        text:       'var(--color-text)',
+
+        // Brand color palette - accessible via cd-* classes
+        'cd-coral':        'var(--color-cd-coral)',
+        'cd-coral-hover':  'var(--color-cd-coral-hover)',
+        'cd-teal-light':   'var(--color-cd-teal-light)',
+        'cd-teal-dark':    'var(--color-cd-teal-dark)',
+        'cd-navy-light':   'var(--color-cd-navy-light)',
+        'cd-navy-dark':    'var(--color-cd-navy-dark)',
+        'cd-sand-light':   'var(--color-cd-sand-light)',
+        'cd-sand-dark':    'var(--color-cd-sand-dark)',
+        'cd-charcoal':     'var(--color-cd-charcoal)',
+        'cd-white':        'var(--color-cd-white)',
+        'cd-bg-dark':      'var(--color-cd-bg-dark)',
+        'cd-surface-light': 'var(--color-cd-surface-light)',
+
+        // Legacy aliases - for backward compatibility
+        white:       'var(--color-cd-white)',
+        black:       'var(--color-cd-charcoal)',
+        dark:        'var(--color-cd-bg-dark)',
+        yellow:      'var(--color-secondary)',
+
+        'body-color': {
+          DEFAULT: 'var(--color-text)',
+          dark:    'var(--color-cd-white)',
         },
+
         stroke: {
-          stroke: "#E3E8EF",
-          dark: "#353943",
+          stroke: 'var(--color-accent)',
+          dark:   'var(--color-accent)',
         },
+
         gray: {
           ...colors.gray,
-          dark: "#1E232E",
-          light: "#F0F2F9",
+          dark:  'var(--color-cd-sand-dark)',
+          light: 'var(--color-cd-sand-light)',
         },
       },
 

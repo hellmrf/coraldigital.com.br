@@ -1,5 +1,47 @@
-@import "./_colors.css";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@theme {
+  /* Base colors - brand palette */
+  --color-cd-coral: #FF6F61;
+  --color-cd-coral-hover: #FFA08F;
+  --color-cd-teal-light: #1EAFB3;
+  --color-cd-teal-dark: #29C2C6;
+  --color-cd-navy-light: #104E7B;
+  --color-cd-navy-dark: #3B76A5;
+  --color-cd-sand-light: #F5EDE4;
+  --color-cd-sand-dark: #E8D9C9;
+  --color-cd-charcoal: #222831;
+  --color-cd-white: #F5F5F5;
+  --color-cd-bg-dark: #181D23;
+  --color-cd-surface-light: #FFFFFF;
+
+  /* Semantic color tokens - light theme defaults */
+  --color-background: var(--color-cd-sand-light);
+  --color-surface: var(--color-cd-surface-light);
+  --color-primary: var(--color-cd-coral);
+  --color-primary-hover: var(--color-cd-coral-hover);
+  --color-secondary: var(--color-cd-teal-light);
+  --color-accent: var(--color-cd-navy-light);
+  --color-text: var(--color-cd-charcoal);
+
+  /* Dark mode overrides via media query */
+  @media (prefers-color-scheme: dark) {
+    --color-background: var(--color-cd-bg-dark);
+    --color-surface: var(--color-cd-sand-dark);
+    --color-secondary: var(--color-cd-teal-dark);
+    --color-accent: var(--color-cd-navy-dark);
+    --color-text: var(--color-cd-white);
+  }
+}
+
+/* Dark mode overrides via data attribute */
+[data-theme="dark"] {
+  --color-background: var(--color-cd-bg-dark);
+  --color-surface: var(--color-cd-sand-dark);
+  --color-secondary: var(--color-cd-teal-dark);
+  --color-accent: var(--color-cd-navy-dark);
+  --color-text: var(--color-cd-white);
+}
 
 @tailwind base;
 @tailwind components;
