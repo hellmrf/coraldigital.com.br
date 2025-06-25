@@ -38,13 +38,13 @@ module.exports = {
         current:     'currentColor',
         transparent: 'transparent',
 
-        background: 'var(--color-background)',
-        surface:    'var(--color-surface)',
-        primary:    'var(--color-primary)',
-        'primary-hover': 'var(--color-primary-hover)',
-        secondary:  'var(--color-secondary)',
-        accent:     'var(--color-accent)',
-        text:       'var(--color-text)',
+        // background: 'var(--color-background)',
+        // surface:    'var(--color-surface)',
+        // primary:    'var(--color-primary)',
+        // 'primary-hover': 'var(--color-primary-hover)',
+        // secondary:  'var(--color-secondary)',
+        // accent:     'var(--color-accent)',
+        // text:       'var(--color-text)',
 
         // Brand color palette - accessible via cd-* classes
         'cd-coral':        'var(--color-cd-coral)',
