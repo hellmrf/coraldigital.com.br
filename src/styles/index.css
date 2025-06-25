@@ -21,13 +21,17 @@ layer(base);
   --color-white: var(--color-cd-white);
   --color-black: var(--color-cd-charcoal);
   --color-dark: var(--color-cd-bg-dark);
-  --color-yellow: var(--color-secondary);
+  --color-yellow: var(--color-warning);
 
   --color-body-color: var(--color-text);
-  --color-body-color-dark: var(--color-cd-white);
+  --color-body-color-dark: var(--color-text-dark);
 
   --color-stroke-stroke: var(--color-accent);
-  --color-stroke-dark: var(--color-accent);
+  --color-stroke-dark: var(--color-accent-dark);
+
+  /* Additional semantic mappings */
+  --color-surface: var(--color-surface);
+  --color-surface-dark: var(--color-surface-dark);
 
   --color-gray-50: #f9fafb;
   --color-gray-100: #f3f4f6;

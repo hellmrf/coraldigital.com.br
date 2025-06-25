@@ -19,13 +19,13 @@ O poder da Inteligência Artificial no seu negócio!                </h1>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="https://wa.me/5531971352054"
-                    className="rounded-xs bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                    className="rounded-xs bg-primary px-8 py-4 text-base font-semibold text-surface duration-300 ease-in-out hover:bg-primary-hover"
                   >
                     📞 Entre em contato
                   </Link>
                   {/*<Link
                     href="#"
-                    className="inline-block rounded-xs bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
+                    className="inline-block rounded-xs bg-text px-8 py-4 text-base font-semibold text-surface duration-300 ease-in-out hover:bg-text/90 dark:bg-surface/10 dark:text-text-dark dark:hover:bg-surface/5"
                   >
                     Star on GitHub
                   </Link>*/}

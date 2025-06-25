@@ -24,7 +24,7 @@ const Pricing = () => {
               className={`${
                 isMonthly
                   ? "pointer-events-none text-primary"
-                  : "text-dark dark:text-white"
+                  : "text-text dark:text-text-dark"
               } mr-4 cursor-pointer text-base font-semibold`}
             >
               Monthly
@@ -34,13 +34,13 @@ const Pricing = () => {
               className="flex cursor-pointer items-center"
             >
               <div className="relative">
-                <div className="h-5 w-14 rounded-full bg-[#1D2144] shadow-inner"></div>
+                <div className="h-5 w-14 rounded-full bg-accent shadow-inner"></div>
                 <div
                   className={`${
                     isMonthly ? "" : "translate-x-full"
                   } shadow-switch-1 absolute left-0 top-[-4px] flex h-7 w-7 items-center justify-center rounded-full bg-primary transition`}
                 >
-                  <span className="active h-4 w-4 rounded-full bg-white"></span>
+                  <span className="active h-4 w-4 rounded-full bg-surface"></span>
                 </div>
               </div>
             </div>
@@ -48,7 +48,7 @@ const Pricing = () => {
               onClick={() => setIsMonthly(false)}
               className={`${
                 isMonthly
-                  ? "text-dark dark:text-white"
+                  ? "text-text dark:text-text-dark"
                   : "pointer-events-none text-primary"
               } ml-4 cursor-pointer text-base font-semibold`}
             >

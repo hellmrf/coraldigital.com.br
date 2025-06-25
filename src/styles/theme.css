@@ -17,7 +17,7 @@
 }
 
 @theme {
-
+  /* Light theme colors */
   --color-background: var(--color-cd-sand-light);
   --color-surface: var(--color-cd-surface-light);
   --color-primary: var(--color-cd-coral);
@@ -26,9 +26,27 @@
   --color-accent: var(--color-cd-navy-light);
   --color-text: var(--color-cd-charcoal);
 
+  /* Dark theme colors */
   --color-background-dark: var(--color-cd-bg-dark);
   --color-surface-dark: var(--color-cd-sand-dark);
+  --color-primary-dark: var(--color-cd-coral);
+  --color-primary-hover-dark: var(--color-cd-coral-hover);
   --color-secondary-dark: var(--color-cd-teal-dark);
   --color-accent-dark: var(--color-cd-navy-dark);
   --color-text-dark: var(--color-cd-white);
+
+  /* Additional semantic colors */
+  --color-success: var(--color-cd-teal-light);
+  --color-success-dark: var(--color-cd-teal-dark);
+  --color-warning: #FBB040;
+  --color-error: #EF4444;
+  --color-info: var(--color-cd-navy-light);
+  --color-info-dark: var(--color-cd-navy-dark);
+
+  /* Hex colors for SVG gradients and legacy support */
+  --color-primary-hex: #FF6F61;
+  --color-secondary-hex: #1EAFB3;
+  --color-accent-hex: #104E7B;
+  --color-text-hex: #222831;
+  --color-surface-hex: #FFFFFF;
 }
