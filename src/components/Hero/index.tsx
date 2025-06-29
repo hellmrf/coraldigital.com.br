@@ -12,20 +12,21 @@ const Hero = () => {
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-O poder da Inteligência Artificial no seu negócio!                </h1>
-                <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  A Coral Digital é uma empresa brasileira de tecnologia que desenvolve soluções de Inteligência Artificial para o seu negócio. Ajudamos empresas a automatizar processos, reduzir custos e aumentar a eficiência.
+                  Soluções digitais inteligentes para o seu negócio
+                </h1>
+                <p className="mb-12 text-base leading-relaxed! text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
+                  A Coral Digital é especializada em democratizar o acesso à tecnologia, oferecendo soluções digitais profissionais, personalizadas e acessíveis para impulsionar negócios locais e pequenos empreendedores.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="https://wa.me/5531971352054"
-                    className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                    className="rounded-xs bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
                     📞 Entre em contato
                   </Link>
                   {/*<Link
                     href="#"
-                    className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
+                    className="inline-block rounded-xs bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
                   >
                     Star on GitHub
                   </Link>*/}
@@ -100,8 +101,8 @@ O poder da Inteligência Artificial no seu negócio!                </h1>
                 y2="288"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+                <stop stopColor="#FF6F61" />
+                <stop offset="1" stopColor="#FF6F61" stopOpacity="0" />
               </linearGradient>
               <radialGradient
                 id="paint1_radial_25:217"
@@ -111,8 +112,8 @@ O poder da Inteligência Artificial no seu negócio!                </h1>
                 gradientUnits="userSpaceOnUse"
                 gradientTransform="translate(17.9997 182) rotate(90) scale(18)"
               >
-                <stop offset="0.145833" stopColor="#4A6CF7" stopOpacity="0" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0.08" />
+                <stop offset="0.145833" stopColor="#FF6F61" stopOpacity="0" />
+                <stop offset="1" stopColor="#FF6F61" stopOpacity="0.08" />
               </radialGradient>
               <radialGradient
                 id="paint2_radial_25:217"
@@ -122,8 +123,8 @@ O poder da Inteligência Artificial no seu negócio!                </h1>
                 gradientUnits="userSpaceOnUse"
                 gradientTransform="translate(76.9997 288) rotate(90) scale(34)"
               >
-                <stop offset="0.145833" stopColor="#4A6CF7" stopOpacity="0" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0.08" />
+                <stop offset="0.145833" stopColor="#FF6F61" stopOpacity="0" />
+                <stop offset="1" stopColor="#FF6F61" stopOpacity="0.08" />
               </radialGradient>
               <linearGradient
                 id="paint3_linear_25:217"
@@ -133,8 +134,8 @@ O poder da Inteligência Artificial no seu negócio!                </h1>
                 y2="351.421"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+                <stop stopColor="#FF6F61" />
+                <stop offset="1" stopColor="#FF6F61" stopOpacity="0" />
               </linearGradient>
               <linearGradient
                 id="paint4_linear_25:217"
@@ -144,7 +145,7 @@ O poder da Inteligência Artificial no seu negócio!                </h1>
                 y2="448.882"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" />
+                <stop stopColor="#FF6F61" />
                 <stop offset="1" stopColor="white" stopOpacity="0" />
               </linearGradient>
               <linearGradient
@@ -155,7 +156,7 @@ O poder da Inteligência Artificial no seu negócio!                </h1>
                 y2="470"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" />
+                <stop stopColor="#FF6F61" />
                 <stop offset="1" stopColor="white" stopOpacity="0" />
               </linearGradient>
               <linearGradient
@@ -166,8 +167,8 @@ O poder da Inteligência Artificial no seu negócio!                </h1>
                 y2="338.63"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+                <stop stopColor="#FF6F61" />
+                <stop offset="1" stopColor="#FF6F61" stopOpacity="0" />
               </linearGradient>
             </defs>
           </svg>
@@ -214,8 +215,8 @@ O poder da Inteligência Artificial no seu negócio!                </h1>
                 y2="212.24"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" stopOpacity="0" />
-                <stop offset="1" stopColor="#4A6CF7" />
+                <stop stopColor="#FF6F61" stopOpacity="0" />
+                <stop offset="1" stopColor="#FF6F61" />
               </linearGradient>
               <linearGradient
                 id="paint1_linear_25:218"
@@ -225,8 +226,8 @@ O poder da Inteligência Artificial no seu negócio!                </h1>
                 y2="212.24"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" stopOpacity="0" />
-                <stop offset="1" stopColor="#4A6CF7" />
+                <stop stopColor="#FF6F61" stopOpacity="0" />
+                <stop offset="1" stopColor="#FF6F61" />
               </linearGradient>
               <linearGradient
                 id="paint2_linear_25:218"
@@ -236,8 +237,8 @@ O poder da Inteligência Artificial no seu negócio!                </h1>
                 y2="212.24"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" stopOpacity="0" />
-                <stop offset="1" stopColor="#4A6CF7" />
+                <stop stopColor="#FF6F61" stopOpacity="0" />
+                <stop offset="1" stopColor="#FF6F61" />
               </linearGradient>
               <linearGradient
                 id="paint3_linear_25:218"
@@ -247,8 +248,8 @@ O poder da Inteligência Artificial no seu negócio!                </h1>
                 y2="210.214"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" stopOpacity="0" />
-                <stop offset="1" stopColor="#4A6CF7" />
+                <stop stopColor="#FF6F61" stopOpacity="0" />
+                <stop offset="1" stopColor="#FF6F61" />
               </linearGradient>
               <linearGradient
                 id="paint4_linear_25:218"
@@ -258,8 +259,8 @@ O poder da Inteligência Artificial no seu negócio!                </h1>
                 y2="99.5816"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+                <stop stopColor="#FF6F61" />
+                <stop offset="1" stopColor="#FF6F61" stopOpacity="0" />
               </linearGradient>
               <radialGradient
                 id="paint5_radial_25:218"

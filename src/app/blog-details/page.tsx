@@ -108,8 +108,8 @@ const BlogDetailsPage = () => {
                     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
                     occaecat cupidatat.
                   </p>
-                  <div className="mb-10 w-full overflow-hidden rounded">
-                    <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
+                  <div className="mb-10 w-full overflow-hidden rounded-sm">
+                    <div className="relative aspect-97/60 w-full sm:aspect-97/44">
                       <Image
                         src="/images/blog/blog-details-02.jpg"
                         alt="image"
@@ -233,7 +233,7 @@ const BlogDetailsPage = () => {
                           cx="37.5"
                           cy="37.5"
                           r="37.5"
-                          fill="#4A6CF7"
+                          fill="#FF6F61"
                         />
                         <mask
                           id="mask0_111:596"
@@ -249,7 +249,7 @@ const BlogDetailsPage = () => {
                             cx="37.5"
                             cy="37.5"
                             r="37.5"
-                            fill="#4A6CF7"
+                            fill="#FF6F61"
                           />
                         </mask>
                         <g mask="url(#mask0_111:596)">
