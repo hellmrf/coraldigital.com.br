@@ -237,7 +237,7 @@ const BlogSidebarPage = () => {
                           cx="37.5"
                           cy="37.5"
                           r="37.5"
-                          fill="#4A6CF7"
+                          fill="#FF6F61"
                         />
                         <mask
                           id="mask0_111:596"
@@ -253,7 +253,7 @@ const BlogSidebarPage = () => {
                             cx="37.5"
                             cy="37.5"
                             r="37.5"
-                            fill="#4A6CF7"
+                            fill="#FF6F61"
                           />
                         </mask>
                         <g mask="url(#mask0_111:596)">
