@@ -31,15 +31,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Atendimento Humano e Próximo" />
+                    {/* <List text="Atendimento Humano e Próximo" />
                     <List text="Soluções sob Medida" />
-                    <List text="Soluções acessíveis e escaláveis" />
+                    <List text="Soluções acessíveis e escaláveis" /> */}
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Escalabilidade Garantida" />
+                    {/* <List text="Escalabilidade Garantida" />
                     <List text="Suporte profissional" />
-                    <List text="Foco no mercado brasileiro" />
+                    <List text="Foco no mercado brasileiro" /> */}
                   </div>
                 </div>
               </div>
