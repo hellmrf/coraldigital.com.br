@@ -14,14 +14,27 @@ layer(base);
   --breakpoint-xl: 1200px;
   --breakpoint-2xl: 1400px;
 
+  --color-cd-coral: #FF6F61;
+  --color-cd-coral-hover: #FFA08F;
+  --color-cd-teal-light: #1EAFB3;
+  --color-cd-teal-dark: #29C2C6;
+  --color-cd-navy-light: #104E7B;
+  --color-cd-navy-dark: #3B76A5;
+  --color-cd-sand-light: #F5EDE4;
+  --color-cd-sand-dark: #E8D9C9;
+  --color-cd-charcoal: #222831;
+  --color-cd-white: #F5F5F5;
+  --color-cd-bg-dark: #181D23;
+  --color-cd-surface-light: #FFFFFF;
+
   --color-current: currentColor;
   --color-transparent: transparent;
-  --color-white: #ffffff;
-  --color-black: #121723;
-  --color-dark: #1d2430;
-  --color-primary: #4a6cf7;
-  --color-yellow: #fbb040;
-  --color-bg-color-dark: #171c28;
+  --color-white: #F5F5F5;
+  --color-black: #181D23;
+  --color-dark: #222831;
+  --color-primary: #FF6F61;
+  --color-yellow: #29C2C6;
+  --color-bg-color-dark: #181D23;
 
   --color-body-color: #788293;
   --color-body-color-dark: #959cb1;
@@ -40,8 +53,8 @@ layer(base);
   --color-gray-800: #1f2937;
   --color-gray-900: #111827;
   --color-gray-950: #030712;
-  --color-gray-dark: #1e232e;
-  --color-gray-light: #f0f2f9;
+  --color-gray-dark: #0f1216;
+  --color-gray-light: #E8D9C9;
 
   --shadow-sign-up: 0px 5px 10px rgba(4, 10, 34, 0.2);
   --shadow-one: 0px 2px 3px rgba(7, 7, 77, 0.05);
