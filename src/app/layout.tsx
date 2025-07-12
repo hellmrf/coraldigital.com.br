@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
 import { Inter } from "next/font/google";
+import { GoogleAnalytics } from '@next/third-parties/google';
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
 
@@ -15,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html suppressHydrationWarning lang="en">
+    <html suppressHydrationWarning lang="pt-BR">
       {/*
         <head /> will contain the components returned by the nearest parent
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
@@ -30,6 +31,7 @@ export default function RootLayout({
           <ScrollToTop />
         </Providers>
       </body>
+      <GoogleAnalytics gaId="G-5RNZMPCLKC" />
     </html>
   );
 }
