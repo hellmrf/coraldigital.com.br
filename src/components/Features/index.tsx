@@ -8,8 +8,8 @@ const Features = () => {
       <section id="features" className="py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="Nossos serviços"
-            paragraph="Conheça nossos serviços e veja como podemos ajudar você a crescer o seu negócio."
+            title="Soluções"
+            paragraph="Quatro linhas de projeto com mercados distintos, infraestrutura técnica compartilhada e um único compromisso: IA que funciona no mundo real."
             center
           />
 

@@ -1,6 +1,12 @@
-import NewsLatterBox from "./NewsLatterBox";
 import Link from "next/link";
-import { FaWhatsapp, FaEnvelope, FaLinkedin, FaInstagram, FaFacebook, FaFacebookMessenger, FaPhone, FaTelegram, FaTty } from "react-icons/fa";
+import {
+  FaWhatsapp,
+  FaEnvelope,
+  FaLinkedin,
+  FaInstagram,
+  FaFacebook,
+  FaTelegram,
+} from "react-icons/fa";
 
 const contactData = [
   {
@@ -29,32 +35,16 @@ const contactData = [
   },
   {
     icon: FaFacebook,
-    alt: "Instagram",
+    alt: "Facebook",
     link: "https://www.facebook.com/coraldigitalai",
     color: "#4267b2",
   },
   {
-    icon: FaFacebookMessenger,
-    alt: "Instagram",
-    link: "https://www.messenger.com/t/coraldigitalai",
-    color: "#006aff",
-  },
-  // {
-  //   icon: FaPhone,
-  //   alt: "Instagram",
-  //   link: "https://www.instagram.com/coraldigitalai",
-  // },
-  {
     icon: FaTelegram,
-    alt: "Instagram",
+    alt: "Telegram",
     link: "https://t.me/coraldigitalai",
     color: "#0088cc",
   },
-  // {
-  //   icon: FaTty,
-  //   alt: "Ligar",
-  //   link: "",
-  // },
 ];
 
 const Contact = () => {
@@ -68,10 +58,10 @@ const Contact = () => {
               data-wow-delay=".15s"
             >
               <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
-                Entre em contato!
+                Entre em contato
               </h2>
               <p className="mb-12 text-base font-medium text-body-color">
-                Vamos conversar sobre a melhor opção pra você!
+                Conte o problema. Avaliamos a viabilidade e respondemos com honestidade, inclusive quando a tecnologia ainda não é a solução certa.
               </p>
 
               <div className="w-full flex items-center gap-8 align-middle justify-center mb-8">

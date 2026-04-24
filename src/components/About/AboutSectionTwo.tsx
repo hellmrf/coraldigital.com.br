@@ -28,26 +28,26 @@ const AboutSectionTwo = () => {
             <div className="max-w-[470px]">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Desenvolvimento de Soluções com IA
+                  Pesquisa que vira produto
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Criamos soluções inteligentes para pequenos e médios negócios, automatizando processos e tornando operações mais eficientes. Desenvolvemos desde chatbots personalizados até sistemas avançados de IA.
+                  Nossa metodologia une rigor científico e pragmatismo de entrega. Cada projeto começa com diagnóstico preciso do problema, não com a tecnologia que está na moda. O resultado é IA que funciona onde importa: na operação real do cliente.
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Automação de Atendimento
+                  Conhecimento de domínio como ativo
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Nosso sistema de automação de atendimento via WhatsApp transforma a forma como empresas interagem com seus clientes. Com inteligência artificial, eliminamos tarefas repetitivas.
+                  Aplicar IA com profundidade exige entender como advogados buscam informação, como gestores públicos avaliam editais, como equipes de RH estruturam políticas. Esse conhecimento é construído projeto a projeto e mantido como patrimônio da empresa.
                 </p>
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Integração e Automação de Processos
+                  Um modelo que distribui risco
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Ajudamos sua empresa a aplicar ferramentas e automatizar fluxos operacionais, reduzindo tempo e esforço manual. Nossa IA simplifica sua operação e melhora sua produtividade.
+                  A Coral opera como uma holding de projetos: linhas distintas, mercados distintos, mas infraestrutura técnica e metodológica compartilhada. Quando um mercado desacelera, outro sustenta. O custo marginal de cada novo projeto cai à medida que a base se consolida.
                 </p>
               </div>
             </div>

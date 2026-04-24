@@ -1,10 +1,11 @@
 import Image from "next/image";
+import type { ReactNode } from "react";
 import SectionTitle from "../Common/SectionTitle";
 
 import { FaRulerCombined } from "react-icons/fa";
 
 const AboutSectionOne = () => {
-  const List = ({ text, icon }) => (
+  const List = ({ text, icon }: { text: string; icon?: ReactNode }) => (
     <p className="mb-5 flex items-center text-lg font-medium text-body-color">
       <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-white">
         {icon || <FaRulerCombined className="text-xl text-white h-4 w-4" />}
@@ -20,8 +21,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Por que Coral Digital?"
-                paragraph="Somos uma empresa brasileira focada em democratizar a Inteligência Artificial, tornando-a acessível e útil para micro e pequenas empresas. Combinamos inovação tecnológica com uma abordagem prática e acessível."
+                title="Por que a Coral Digital é diferente?"
+                paragraph="Grandes empresas vendem infraestrutura. Consultorias tradicionais cobram o que PMEs não conseguem pagar. Startups verticais resolvem um problema, mas param por aí. A Coral Digital ocupa o espaço entre esses mundos: uma empresa de pesquisa e desenvolvimento aplicado em IA, com formação científica, histórico de entrega e capacidade de percorrer sozinha o caminho do diagnóstico ao produto em produção."
                 mb="44px"
               />
 
@@ -31,15 +32,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    {/* <List text="Atendimento Humano e Próximo" />
-                    <List text="Soluções sob Medida" />
-                    <List text="Soluções acessíveis e escaláveis" /> */}
+                    <List text="Validação rigorosa em cada projeto" />
+                    <List text="Conhecimento de domínio acumulado" />
+                    <List text="Infraestrutura técnica reutilizável" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    {/* <List text="Escalabilidade Garantida" />
-                    <List text="Suporte profissional" />
-                    <List text="Foco no mercado brasileiro" /> */}
+                    <List text="Transparência sobre limitações" />
+                    <List text="Foco no mercado brasileiro" />
+                    <List text="Da teoria ao produto em produção" />
                   </div>
                 </div>
               </div>
