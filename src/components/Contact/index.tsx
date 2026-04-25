@@ -6,7 +6,7 @@ const contactData = [
   {
     icon: FaWhatsapp,
     alt: "WhatsApp",
-    link: "https://api.whatsapp.com/send?phone=5531984430539&text=Olá!%20Gostaria%20de%20mais%20informações.%20Vim%20pelo%20site.",
+    link: "https://wpp.hellmrf.dev.br/",
     color: "#25D366",
   },
   {
